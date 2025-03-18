@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sorteio Amigo Secreto</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Sorteio Amigo Secreto</h1>
+    <div id="winnerBanner"></div>
+  </header>
+  <main>
+    <section class="card">
+      <h3>Adicione aqui seu amigo!</h3>
+      <ul id="friendList"></ul>
+      <div class="input-area">
+        <input type="text" id="friendInput" placeholder="Digite o nome do amigo">
+      </div>
+      <div class="buttons-area">
+        <button id="sortButton" class="sort-btn">Sortear</button>
+        <button id="refreshButton" class="refresh-btn">Recomeçar</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Sorteio Amigo Secreto</p>
+  </footer>
+  <canvas id="confettiCanvas"></canvas>
+  <script src="index.js"></script>
+</body>
+</html>
